@@ -85,9 +85,55 @@
     
 }
 
-.card-container{
+.curriculum-title{
     display: flex;
+    justify-content: center;
+    align-items: center;
 
+    margin-bottom: 80px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1160px;
+    margin: 0 auto;
+    gap: 28px;
+}
+
+.card-container > div > a{
+    text-decoration: none; 
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    border-radius: 18px;
+    align-items: center;
+    padding-top: 52px;
+    padding-bottom: 53px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.card-1{
+   
+    background-color: #DEF5FF;
+
+    
+}
+.card-2{
+   
+    background-color: #FFF4DC;
+    box-shadow: 0 0 rgba(0, 0, 0, 0.05);
+
+}
+.card-3{
+   
+   
 }
 
 /* Responsive media query */
