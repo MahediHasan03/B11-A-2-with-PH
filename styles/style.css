@@ -89,6 +89,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 2.87rem;
+    font-weight: 700;
 
     margin-bottom: 80px;
 }
@@ -122,18 +124,52 @@
 .card-1{
    
     background-color: #DEF5FF;
-
+    background: linear-gradient(to bottom, #DEF5FF, #FFFF 50%);
+    box-shadow: 0 0 rgba(0, 0, 0, 0.05);
     
 }
 .card-2{
-   
     background-color: #FFF4DC;
-    box-shadow: 0 0 rgba(0, 0, 0, 0.05);
+    background: linear-gradient(to bottom, #FFF4DC, #ffff 50%);
+    box-shadow: 0  rgba(0, 0, 0, 0.05);
 
 }
 .card-3{
+   background-color: #F2E8FF;
+   background: linear-gradient(to bottom, #F2E8FF, #FFFF 50%);
+   box-shadow: 0px 4px rgba(0, 0, 0, 0.27);
    
-   
+}
+
+.middle-btn{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    
+}
+
+.middle-btn button{
+    color: white;
+    font-size: 24px;
+    padding: 20px 25px;
+    background-color: orange;
+    border-style: none;
+    border-radius: 30px;
+    
+}
+
+/* Our Stories section */
+
+.story-btn{
+    position: absolute;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: -25px;
 }
 
 /* Responsive media query */
@@ -160,5 +196,18 @@
         display: flex;
         width: 100%;
         justify-content: space-between;
+    }
+
+    .card-container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .curriculum-title{
+        width: 100%;
+        font-size: 1.62rem;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 }
