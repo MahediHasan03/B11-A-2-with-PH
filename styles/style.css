@@ -1,0 +1,118 @@
+
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.nav-2 img{
+    height: 30px;
+    width: 30px;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-div{
+    display: flex;
+    gap: 32px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-div > a{
+    text-decoration: none;
+}
+
+.btn-primary{
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 10px 60.5px;
+    color:white;
+    border-radius: 12px;
+    border-style: none;
+
+}
+
+.banner{
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    /* justify-content: space-around; */
+}
+
+.banner img{
+    margin-left: 50px;
+}
+
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    border-bottom: 0;
+}
+
+.banner-description{
+    font-size: 1.25rem;
+    color: #111111;
+    border-top: 0;
+}
+
+.hide{
+    display: none;
+}
+
+.curriculum{
+    
+}
+
+.card-container{
+    display: flex;
+
+}
+
+/* Responsive media query */
+
+@media screen and (max-width: 576px) {
+    .banner{
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .banner-img{
+        border-left: 20px;
+    }
+    .nav{
+        display: none;
+    }
+
+    .nav-2{
+        display:contents;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
