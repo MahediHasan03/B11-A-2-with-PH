@@ -12,6 +12,12 @@
     align-items: center;
 }
 
+.marquee{
+    color: green;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 .nav-2 {
     display: flex;
     justify-content: space-between;
