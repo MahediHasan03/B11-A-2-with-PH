@@ -25,7 +25,7 @@
                 <a href=""><span style="color: #5D58EF;">Admission</span></a>
             </div>
             <ul>
-                <button class="btn-primary" style="background-color: #FEA301;">Contact</button>
+                <button class="btn-primary hover" style="background-color: #FEA301;">Contact</button>
             </ul>
         </nav>
 
@@ -33,7 +33,7 @@
 
             <div><img style="height: 46px; width: 46px;" src="assets/logo.png" alt=""></div>
 
-            <div><img src="assets/burger-bar.png" alt=""></div>
+            <div><img style="margin-right: 30px;" src="assets/burger-bar.png" alt=""></div>
 
         </nav>
 
@@ -49,7 +49,7 @@
                     With the courage, Confidence, Creativity and Compassion to make <br> their Unique Contribution in a
                     Diverse and Dynamic World.
                 </p>
-                <button class="btn-primary" style="background-color: #111111;">
+                <button class="btn-primary hover" style="background-color: #111111;">
                     Enroll Now
                 </button>
             </div>
@@ -59,7 +59,12 @@
         </div>
 
     </header>
-    <main style="background-image: url(assets/bg.png);">
+
+    <main class="main" style="background: linear-gradient(to top, rgba(254, 161, 1, 0.29), transparent 90%), 
+    url(assets/bg.png);
+/* background-repeat: repeat-x; */
+background-size: contain;
+background-position: center;">
         <section class="curriculum">
 
             <h3 class="curriculum-title">
@@ -91,39 +96,128 @@
                     <a style="color: #8700ff;" href="">Read More</a>
                 </div>
             </div>
-        </section>
-        <div class="middle-btn">
-            <li><button><</button></li>  
-            <li><button>></button></li>
-        </div>
 
+            <div class="middle-btn ">
+                <li><button class="hover">
+                        < </button>
+                </li>
+                <li><button class="hover">
+                        >
+                    </button></li>
+            </div>
+        </section>
         <section class="Our Stories">
-            <h3></h3>
+            <h3 class="story-title">Our Stories</h3>
             <div class="story-container">
                 <div class="story-section-1">
                     <div>
                         <img src="assets/story-1.png" alt=""> <br>
-                        <button class="story-btn">November 19, 2019</button>
+                        <button class="story-btn" style="background-color: #3CD8E8; border-style: none;">November 19,
+                            2019</button>
                     </div>
-                    <p>
-                        A fun toddler coloring training on
-                        classroom
-                    </p>
-                    <p>
-                        Beautiful branding for changes by Never Now in Australia.
-                        changes is a platform for open discussion in an inclusive and
-                        collaborative environment, providing the...
-                    </p>
+                    <div style="padding: 33px 38px 47px;">
+                        <p style="font-size: 24px; font-weight: 700;">
+                            A fun toddler coloring training on
+                            classroom
+                        </p>
+                        <p style="font-size: 15.34px; font-weight: 500;">
+                            Beautiful branding for changes by Never Now in Australia. <br>
+                            changes is a platform for open discussion in an inclusive and <br>
+                            collaborative environment, providing the...
+                        </p>
+                    </div>
                 </div>
-                <div class="story-section-1">
+                <div class="story-section-2">
+                    <div class="story-2-sub">
+                        <div>
+                            <img src="assets/story-2.png" alt=""> <br>
+                            <button class="story-btn story-btn-colour">November 19, 2019</button>
+                        </div>
+                        <div class="story-2-description">
+                            <p>
+                                Find out if a school fits the
+                                family’s needs
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-2-sub">
+                        <div>
+                            <img src="assets/story-3.png" alt=""> <br>
+                            <button class="story-btn" style="background-color: #5D58F0;">November 19, 2019</button>
+                        </div>
+                        <div>
+                            <p class="story-2-description">
+                                Summer math & literacy
+                                centres for kids
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-2-sub">
+                        <div>
+                            <img src="assets/story-4.png" alt=""> <br>
+                            <button class="story-btn story-btn-colour">September 10, 2019</button>
+                        </div>
+                        <div class="story-2-description">
+                            <p>
+                                Classroom management
+                                techniques for new tutors
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-2-sub">
+                        <div>
+                            <img src="assets/story-5.png" alt=""> <br>
+                            <button class="story-btn story-btn-colour">July 19, 2019</button>
+                        </div>
+                        <div class="story-2-description">
+                            <p>
+                                Conversation rhymes
+                                improve kids listening
+                            </p>
+                        </div>
+                    </div>
 
                 </div>
             </div>
 
+            <li class="story-bottom-btn"><button class="last-btn hover">View All</button></li>
+
         </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="kid-edu">
+                <div style="display: flex; align-items: center;">
+                    <img style="height: 82px; width: 82px;" src="assets/rsz_logo_white.png" alt="">
+                    <p style="font-size: 2.63rem; font-weight: 700;">
+                        Kids  <br>
+                        Education
+                    </p>
+                </div>
+                <p>
+                    Early childhood education plays a vital role in shaping a child's future. It provides foundational
+                    skilsl, enhances cognitive development, and fosters social and emotional growth.
+                </p>
+            </div>
+            <div class="about-school">
+                <h3>About School</h3>
+                <ul >
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Facilities</a></li>
+                    <li><a href="">Admission</a></li>
+                </ul>
+            </div>
+            <div class="in-touch">
+                <h3>Keep In Touth</h3>
+                <div>
+                    <img src="assets/fb.png" alt="">
+                    <img src="assets/dribble.png" alt="">
+                    <img src="assets/twitter.png" alt="">
+                    <img src="assets/google+.png" alt="">
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
