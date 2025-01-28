@@ -55,7 +55,7 @@
     display: flex;
     width: 1158px;
     margin: 0 auto;
-    /* justify-content: space-around; */
+    
 }
 
 .banner-img {
@@ -210,23 +210,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
-    /* width: 100%;
-    max-width: 100%; */
-
+    
 }
 
 .story-2-sub {
-    /* display: flex;
-    flex-direction: column; */
     background-color: #FFFFFF;
     border-radius: 16px;
     width: 290px;
-    /* text-align: center; */
-    /* width: 100%; */
-   
-   
-    /* align-items: center;
-    text-align: center; */
 
 }
 
@@ -270,15 +260,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 1439px;
-    /* justify-content: space-between;
-    align-items: center; */
+  
     padding: 123px 228px 174px 140px ;
 }
 
 .about-school{
     display: grid;
-    /* margin-bottom: 100px; */
-}
+}   
 
 .about-school li a{
     text-decoration: none;
@@ -299,8 +287,7 @@
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 60px;
-    /* margin-top: -135px; */
-    /* gap: 31px; */
+   
 }
 
 .hover:hover{
@@ -332,19 +319,15 @@
         align-items: center;
         text-align: center;
         width: 100%;
-        /* margin-left: 30px; */
+       
 
     }
 
     .banner-img img{
        
         width: 100%;
-        
-    
     }
     
-
-
     .card-container {
         grid-template-columns: repeat(1, 1fr);
         width:fit-content;
@@ -362,10 +345,6 @@
         display: none;
     }
 
-    /* .story-container{
-        margin: 0px 0px;
-        width: 100%;
-    } */
 
     .story-section-1{
         display: none;
@@ -373,28 +352,15 @@
 
     .story-section-2{
         grid-template-columns: repeat(1, 1fr);
-      /* grid-template-columns: repeat(2, 1fr);
-      margin-left: 0;
-      gap: 11px;
-      width: 100%; */
 
     }
 
     .story-2-sub{
         display: flex;
         flex-direction: column;
-        /* width: 173px;
-        height: 179px; */
+        
     }
-    /* .story-2-sub img{
-        width: 173px;
-       height: 179px;
-    }
-
-    .res{
-        width: 173px;
-       height: 179px;
-    } */
+   
 
     .main{
         display: flex;
@@ -412,10 +378,6 @@
 
     .footer-content{
         grid-template-columns: repeat(1, 1fr);
-        /* width: 100%; */
-        /* margin-left: 20px;
-        padding-left: 10px;
-        padding-right: 0px; */
         margin-left: 20px;
         max-width: 100%;
         padding: 0px;
@@ -430,9 +392,6 @@
         padding-right: 10px;
     }
 
-    /* .full-body{
-        margin-left: 30px;
-        align-items: center;
-    } */
+    
    
 }
